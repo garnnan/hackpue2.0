@@ -1,6 +1,14 @@
-﻿<Properties>
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\ThreadSafeDictionary.cs">
+    <Files>
+      <File FileName="Assets\Scripts\shubia.cs" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\NativeObjectCache.cs" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\NativeWrapper.cs" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\SmartGCHandle.cs" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\ThreadSafeDictionary.cs" Line="60" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
