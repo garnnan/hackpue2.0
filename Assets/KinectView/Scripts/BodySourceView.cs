@@ -105,6 +105,9 @@ public class BodySourceView : MonoBehaviour
                 RefreshBodyObject(body, _Bodies[body.TrackingId]);
             }
         }
+
+
+
     }
     
     private GameObject CreateBodyObject(ulong id)
@@ -123,8 +126,14 @@ public class BodySourceView : MonoBehaviour
             jointObj.transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
             jointObj.name = jt.ToString();
             jointObj.transform.parent = body.transform;
+			//jointObj.AddComponent<Rigidbody> ();
+
+			jointObj.AddComponent<mataburbujas> ();
+
+			Rigidbody rg = jointObj.AddComponent<Rigidbody> ();
+			rg.useGravity = false;
         }
-        
+
         return body;
     }
     
